@@ -1,0 +1,24 @@
+{
+  "whitelistedPools": [
+    "APDFRM3HMr8CAGXwKHiu2f5ePSpaiEJhaURwhsRrUUt9",
+    "F5thWp5ehC5eh3mHL2sKfzb5oQ5NKYnZ55nqmaKfzqC1"
+  ],
+  "blacklistedTokens": [
+    "So11111111111111111111111111111111111111112",
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+  ],
+  "tradingPairs": [
+    {
+      "inputToken": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "outputToken": "So11111111111111111111111111111111111111112",
+      "minProfitability": 0.002
+    }
+  ],
+  "maxPositionSize": 5.0,
+  "cooldownPeriod": 5000,
+  "notificationSettings": {
+    "enableTelegram": false,
+    "enableConsole": true,
+    "minProfitAlert": 0.01
+  }
+}
